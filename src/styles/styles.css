@@ -2,5 +2,51 @@ h1{
   color: darkgreen;
 }
 h2{
-  color: blue;
+  color: orange;
 }
+.header{
+  background-color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: white;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  border-radius: 25px;
+}
+.header:hover{
+  background-color: rgb(75, 73, 73) ;
+  transition: 3s;
+}
+
+.logo{
+  width: 10%;
+}
+  .menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    list-style: none;
+    font-weight: 15px;
+  }
+  
+  
+  .menu :nth-child(1):hover{
+    color: rgb(99, 9, 9);
+  }
+  .menu :nth-child(2):hover{
+    color: rgb(99, 9, 9);
+  }
+  .menu :nth-child(3):hover{
+    color: rgb(99, 9, 9);
+  }
+  .menu :nth-child(4):hover{
+    color: rgb(99, 9, 9);
+  }
+  
